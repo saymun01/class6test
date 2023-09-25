@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans' , sans-serif;
+    
+}
+.contantainer {
+    width: 85%;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(../images/dawn.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    background-blend-mode: multiply ;
+    background-color: rgba(0, 0, 0, 0.411);
+}
+.flex { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+.logo {
+    /* width: 20%; */
+}
+
+.logo h3 {
+   font-size: 30px;
+   line-height: 1.1;
+}
+.logo h3 span {
+   font-weight: 300
+
+}
+
+
+nav {
+   
+}
+
+nav ul {
+   
+   display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 0 0 0 25px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+}
+
+
+
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* banner */
+.banner {
+    color: white;
+    text-align: center;
+    padding: 150px 0;
+}
+
+.banner h4 {
+    font-size: 30px;
+    margin: 0;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.banner span {
+    background-color: #FB2259;
+    height: 5px;
+    width: 100px;
+    border-radius: 10px;
+    display: inline-block;
+    margin: 15px 0 30px;
+
+}
+
+.banner h1{
+    font-size: 80px;
+    font-weight: 500;
+    margin: 20px 0 30px 0;
+}
+
+.banner button {
+    background-color: #FB2259;
+    font-size: 20px;
+    padding: 15px 25px;
+    border: 2px solid #FB2259;
+    border-radius: 10px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+/* mobile device */
+
+
+@media only screen and (max-width:600px){
+    .contantainer {
+        width: 95%;
+        margin: 0 auto;
+    }
+    
+    .flex { 
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    
+    
+    .logo {
+        /* width: 20%; */
+    }
+    
+    .logo h3 {
+       font-size: 30px;
+       line-height: 1.1;
+       margin: 0;
+       text-align: center;
+       padding: 20px 0;
+    }
+    
+    nav ul {
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    nav ul li {
+        list-style: none;
+        padding: 10px;
+        
+    }
+    
+    nav ul li a {
+        text-decoration: none;
+        font-size: 18px;
+        color: white;
+    }
+    
+    
+    
+    
+    img {
+        max-width: 100%;
+        display: block;
+    }
+    
+    /* banner */
+    .banner {
+        color: white;
+        text-align: center;
+        padding: 150px 0;
+    }
+    
+    .banner h4 {
+        font-size: 30px;
+        margin: 0;
+        font-style: italic;
+        font-weight: 400;
+    }
+    
+    .banner span {
+        background-color: #FB2259;
+        height: 5px;
+        width: 100px;
+        border-radius: 10px;
+        display: inline-block;
+        margin: 15px 0 30px;
+    
+    }
+    
+    .banner h1{
+        font-size: 80px;
+        font-weight: 500;
+        margin: 20px 0 30px 0;
+    }
+    
+    .banner button {
+        background-color: #FB2259;
+        font-size: 20px;
+        padding: 15px 25px;
+        border: 2px solid #FB2259;
+        border-radius: 10px;
+        color: white;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+    }
+}
+    
